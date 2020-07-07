@@ -1,0 +1,187 @@
+body{
+    background-image: url('../../images/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.login-form-container{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+.login-form-container-text{
+    font-family: 'Allerta';
+    font-size: 22px;
+    color: #c5180d;
+    margin-left: 11px;
+}
+.sign-up-text{
+    padding-right: 15px;
+    font-weight: 600;
+}
+.title-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Yatra One';
+    align-items: center;
+    background: #ffc8c4;
+}
+.title-text{
+    margin-top: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Yatra One';
+    align-items: center;
+    background: #ffc8c4;
+    position: absolute;
+    color: #c5180d;
+    font-size: 1.6em;
+}
+.nav-bg{
+    background-color: #c5180d;
+}
+.nav-icon{
+    margin-right: 10px;
+}
+.nav-icon:hover{
+    background-color: #fff;
+    color: #c5180d;
+}
+.title-logo{
+    font-family: 'Yatra One';
+    font-size: 35px;
+    margin-left: 20px;
+}
+#button-submit{
+    border-radius: 3px;
+    background-color: #c5180d;
+}
+#footer{
+    background-color: #424242;
+}
+#footer-end{
+    background-color: #212121;
+}
+#Footer-Content{
+    font-family: 'Yatra One';
+}
+.fa {
+    border-radius: 50%; 
+    padding: 10px;
+    font-size: 25px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .fa-facebook:hover{
+      background: #fff;
+      color: #3B5998;
+      transition: 0.3s;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .fa-linkedin:hover{
+      background: #fff;
+      color: #007bb5;
+      transition: 0.3s;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .fa-twitter:hover {
+    background: #fff;
+    color: #55ACEE;
+    transition: 0.3s;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .fa-instagram:hover {
+    background: #fff;
+    color: #125688;
+    transition: 0.3s;
+  }
+  ::-webkit-scrollbar{
+      width: 8px;
+  }
+  ::-webkit-scrollbar-thumb{
+      border-radius: 0px;
+      background-color: #cb2027;
+      box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+  }
+  ::-webkit-scrollbar-track{
+    border-radius: 0px;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+}
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+#back-icon{
+    float: left;
+}
+.back-button{
+    margin-top: 2px;
+    border: 1px solid #ffc8c4;
+    margin-right: 97%;
+    position: relative;
+    color: #fff;
+    transition: 0.4s;
+}
+.back-button:hover{
+    background: #ffc8c4;
+    color: #cb2027;
+    transition: 0.4s;
+}
